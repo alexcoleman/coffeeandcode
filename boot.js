@@ -1,3 +1,5 @@
+require('./config/env');
+
 APP_ROOT = __dirname;
 
 var express = require('express'),
