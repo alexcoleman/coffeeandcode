@@ -18,7 +18,7 @@
   "main": "index",
   "engines": {
     "node": "0.8.19",
-    "npm": "1.1.69"
+    "npm": "1.1.65"
   },
   "scripts": {
     "start": "node boot.js"
