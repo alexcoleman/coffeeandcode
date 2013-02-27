@@ -21,5 +21,5 @@ app.use(express.static(__dirname + '/public', {}));
 // routes
 require('./routes');
 
-app.listen(9000);
+app.listen(process.env.PORT);
 console.log('Web server listening on port: 9000');
