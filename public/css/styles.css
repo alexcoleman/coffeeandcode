@@ -1,3 +1,4 @@
+html {height:100%;}
 body {height:100%; margin-top:100px; font-family:"livory", georgia, serif; font-weight:400; text-align:center; background-color:#fbf5f4; background-image:-webkit-radial-gradient(center center, 50% 50%, rgba(251,245,244,1), rgba(255,255,255,1));}
 a {color:#c29751;}
 a:hover {color:#c29751;}
