@@ -1,5 +1,5 @@
 html {height:100%;}
-body {margin-top:100px; font-family:"livory", georgia, serif; font-weight:400; text-align:center; background-color:#fbf5f4;}
+body {margin:100px 0 20px; font-family:"livory", georgia, serif; font-weight:400; text-align:center; background-color:#fbf5f4;}
 a {color:#c29751;}
 a:hover {color:#c29751;}
 h1 {padding:10px 0; font-size:90px; line-height:100px; font-style:italic; font-weight:100; color:#583130;}
@@ -32,5 +32,8 @@ h3 {font-size:12px; text-transform:uppercase; color:#6d3d33; font-weight:100; le
 }
 
 @media (max-width: 480px) {
-
+  body {margin:30px 0;}
+  h1 {font-size:60px; line-height:70px;}
+  h2 {font-size:16px;}
+  h3 {padding-bottom:30px; font-size:10px;}
 }
