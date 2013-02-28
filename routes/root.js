@@ -6,7 +6,7 @@ var express = require('express'),
 app.get('/', function (req, res, next) {
   var context = {
     page: {
-      title: "Hello world"
+      title: "Coffee and code"
     }
   };
 
