@@ -1,11 +1,15 @@
 html {height:100%;}
-body {margin-top:100px; font-family:"livory", georgia, serif; font-weight:400; text-align:center; background-color:#fbf5f4; background-image:-webkit-radial-gradient(center center, 50% 50%, rgba(251,245,244,1), rgba(255,255,255,1));}
+body {margin-top:100px; font-family:"livory", georgia, serif; font-weight:400; text-align:center; background-color:#fbf5f4;}
 a {color:#c29751;}
 a:hover {color:#c29751;}
 h1 {padding:10px 0; font-size:90px; line-height:100px; font-style:italic; font-weight:100; color:#583130;}
 h2 {font-size:20px; text-transform:uppercase; color:#6d3d33; font-weight:100; letter-spacing:1px;}
-h3 {font-size:12px; text-transform:uppercase; color:#6d3d33; font-weight:100; letter-spacing:1px;}
-#sunrise {position:relative; -webkit-animation: slidein 2s; -moz-animation: slidein 2s;}
+h3 {font-size:12px; text-transform:uppercase; color:#6d3d33; font-weight:100; letter-spacing:1px; -webkit-animation: slidein 2s; -moz-animation: slidein 2s;}
+
+#pourover {position:relative; width:100px; height:100px; margin:auto;}
+#pourover #mask {z-index:1; position:absolute;}
+#pourover video {z-index:0; position:relative;}
+#pourover video img {width:100px; height:100px;}
 
 @-webkit-keyframes slidein {
   0% {bottom:-10px; opacity:0;}
