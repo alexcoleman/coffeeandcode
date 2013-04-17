@@ -3,7 +3,8 @@ require('./config/env');
 APP_ROOT = __dirname;
 
 var express = require('express'),
-    hoganEngine = require('hogan-engine');
+    hoganEngine = require('hogan-engine'),
+    Instagram = require('instagram-node-lib');
 
 var app = express();
 

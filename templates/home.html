@@ -1,16 +1,25 @@
 {{> includes/header.html}}
 
-<div id="pourover">
-  <img id="mask" src="/img/video-mask.png" width="100" height="100" />
-  <video autoplay loop width="100" height="100" id="video">
-    <source src="/vid/cc-loop.mp4" type="video/mp4" />
-    <source src="/vid/cc-loop.ogv" type="video/ogg" />
-    <img src="/img/pourover.png" height="100" width="100" />
-  </video>
-</div>
+<div id="top">
+  <div id="pourover">
+    <img id="mask" src="/img/video-mask.png" width="100" height="100" />
+    <video autoplay loop width="100" height="100" id="video">
+      <source src="/vid/cc-loop.mp4" type="video/mp4" />
+      <source src="/vid/cc-loop.ogv" type="video/ogg" />
+      <img src="/img/pourover.png" height="100" width="100" />
+    </video>
+  </div>
 
-<h1>Coffee &amp; Code</h1>
-<h2>Every Wednesday at 10 AM</h2>
-<h3>Join us next week at <a href="http://www.workinprogress.lv">Work In Progress</a></h3>
+  <h1>Coffee &amp; Code</h1>
+  <h2>Every Wednesday at 9:30 AM</h2>
+  <h3><a href="http://www.twitter.com/coffeeandcodelv">Follow us on Twitter to find out where</a></h3>
+</div>
+<div id="photos">
+{{#instagramPhotos}}
+  {{#images}}
+    <a href="{{link}}"><img src='{{thumbnail.url}}' class="photo" /></a>
+  {{/images}}
+{{/instagramPhotos}}
+</div>
 
 {{> includes/footer.html}}
