@@ -16,7 +16,7 @@ app.get('/', function (req, res, next) {
   getPhotosByTag('cclv', function (err, thePhotos) {
     if (err) return next(err);
 
-    view.instagramPhotos = thePhotos.slice(0,8);
+    view.instagramPhotos = thePhotos.slice(0,16);
     res.render('home', view);
   });
   
